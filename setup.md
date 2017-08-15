@@ -21,17 +21,10 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt -f install
 ```
 
-# install docker
-```shell
-sudo apt-get update
-```
+# Install docker
 
-Not needed anymore:
 ```shell
 sudo apt-get update
-sudo apt-get install \
-    linux-image-extra-$(uname -r) \
-    linux-image-extra-virtual
 ```
 
 ```shell
