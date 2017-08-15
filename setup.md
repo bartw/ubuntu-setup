@@ -21,7 +21,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt -f install
 ```
 
-# Install docker
+# Install Docker
 
 ```shell
 sudo apt-get update
