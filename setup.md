@@ -1,8 +1,8 @@
-## Setup a new machine
+# Setup a new machine
 
-# Download ubuntu server iso and write to usb
+## Download ubuntu server iso and write to usb
 
-# Boot from usb and install
+## Boot from usb and install
 
 ```shell
 ip link
@@ -13,7 +13,7 @@ sudo apt install xinit
 startx
 ```
 
-# Install Chrome
+## Install Chrome
 
 ```shell
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -21,7 +21,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt -f install
 ```
 
-# Install Docker
+## Install Docker
 
 ```shell
 sudo apt-get update
